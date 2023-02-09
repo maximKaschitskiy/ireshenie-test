@@ -1,0 +1,26 @@
+.change-pass__form-input {
+  border: none;
+  padding: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  color: #000000;
+  font-style: normal;
+  font-weight: normal;
+  height: 36px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  padding-left: 15px;
+  z-index: 2;
+}
+
+.change-pass__form-input:focus {
+    outline: 0;
+}
+
+@media only screen and (max-width: 320px) {
+	.change-pass__form-input:first-child {
+
+    }
+ }

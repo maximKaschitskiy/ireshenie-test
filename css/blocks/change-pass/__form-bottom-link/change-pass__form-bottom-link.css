@@ -1,0 +1,12 @@
+.change-pass__form-bottom-link {
+    font-weight: 600;
+    font-size: 97%;
+    line-height: 140%;    
+    text-align: center;
+    color: #3D7FB7;
+    text-decoration: none;
+}
+
+.change-pass__form-bottom-link:hover {
+    text-decoration: underline;
+}

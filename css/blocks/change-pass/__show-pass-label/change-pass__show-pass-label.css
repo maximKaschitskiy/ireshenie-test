@@ -1,0 +1,14 @@
+.change-pass__show-pass-label {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-image: url("../../../../images/eye-closed.svg");
+    background-size: contain;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.change-pass__show-pass:checked + .change-pass__show-pass-label {
+    background-image: url("../../../../images/eye-open.svg");
+}

@@ -1,0 +1,26 @@
+.change-pass__form-bottom-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 350px) {
+    .change-pass__form-bottom-wrapper {
+      width: 69.14%;
+    }
+  }
+  
+  @media only screen and (min-width: 351px) and (max-width: 500px) {
+    .change-pass__form-bottom-wrapper {
+      width: calc(18.66% + 176px);
+    }
+  }
+  
+  @media only screen and (min-width: 501px) and (max-width: 1920px) {
+    .change-pass__form-bottom-wrapper {
+      width: calc(29.08% + 124px);
+    }
+  }

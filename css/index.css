@@ -1,0 +1,30 @@
+@import url(../vendor/normalize.css);
+
+@import url(../fonts/fonts.css);
+
+@import url(./blocks/main/main.css);
+@import url(./blocks/page/page.css);
+
+@import url(./blocks/change-pass/change-pass.css);
+@import url(./blocks/change-pass/__logo/change-pass__logo.css);
+@import url(./blocks/change-pass/__form/change-pass__form.css);
+@import url(./blocks/change-pass/__form-fieldset/change-pass__form-fieldset.css);
+@import url(./blocks/change-pass/__form-title/change-pass__form-title.css);
+@import url(./blocks/change-pass/__form-submit-button/change-pass__form-submit-button.css);
+@import url(./blocks/change-pass/__form-input/change-pass__form-input.css);
+@import url(./blocks/change-pass/__form-error-text/change-pass__form-error-text.css);
+@import url(./blocks/change-pass/__form-input/_validation/change-pass__form-input_validation_error.css);
+@import url(./blocks/change-pass/__caption/change-pass__caption.css);
+@import url(./blocks/change-pass/__caption-main/change-pass__caption-main.css);
+@import url(./blocks/change-pass/__caption-main/_visible/change-pass__caption-main_visible_hide.css);
+@import url(./blocks/change-pass/__caption/_position/change-pass__caption_position_hint.css);
+@import url(./blocks/change-pass/__form-input-wrapper/change-pass__form-input-wrapper.css);
+@import url(./blocks/change-pass/__placeholder/change-pass__placeholder.css);
+@import url(./blocks/change-pass/__form-submit-button-arrow/change-pass__form-submit-button-arrow.css);
+@import url(./blocks/change-pass/__form-submit-button-title/change-pass__form-submit-button-title.css);
+@import url(./blocks/change-pass/__form-bottom-link/change-pass__form-bottom-link.css);
+@import url(./blocks/change-pass/__form-bottom-link/_weigth/change-pass__form-bottom-link_weigth_bold.css);
+@import url(./blocks/change-pass/__form-bottom-wrapper/change-pass__form-bottom-wrapper.css);
+@import url(./blocks/change-pass/__form-error-wrapper/change-pass__form-error-wrapper.css);
+@import url(./blocks/change-pass/__show-pass/chnage-pass__show-pass.css);
+@import url(./blocks/change-pass/__show-pass-label/change-pass__show-pass-label.css);

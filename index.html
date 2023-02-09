@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body class="main">
+    <main class="page">
+      <section class="change-pass">
+        <form class="change-pass__form">
+          <img class="change-pass__logo" src="./images/logo.svg" />
+          <h2 class="change-pass__form-title">Изменение пароля</h2>
+          <fieldset class="change-pass__form-fieldset">
+            <div class="change-pass__form-input-wrapper">
+              <input
+                type="email"
+                class="change-pass__form-input change-pass__form-input_field_email"
+                name="name"
+                id="email-field"
+                required
+              />
+              <label
+                for="email-field"
+                class="change-pass__caption change-pass__placeholder"
+              >
+                <span>* </span>
+                <span class="change-pass__caption-main email-field-caption">Email / Логин</span>
+              </label>
+            </div>
+            <div class="change-pass__form-error-wrapper">
+              <span
+                class="change-pass__form-error-text change-pass__form-error-text_message_email email-field-error"
+              ></span>
+            </div>
+            <div class="change-pass__form-input-wrapper">
+              <input
+                type="text"
+                class="change-pass__form-input change-pass__form-input_field_control-word"
+                name="link"
+                id="control-word-field"
+                required
+              />
+              <label
+                for="control-word-field"
+                class="change-pass__caption change-pass__placeholder control-word-field-palceholder"
+              >
+                <span>* </span>
+                <span class="change-pass__caption-main control-word-field-caption">Контрольная строка</span>
+              </label>
+            </div>
+            <div class="change-pass__form-error-wrapper">
+              <span
+                class="change-pass__form-error-text change-pass__form-error-text_message_control-word control-word-field-error"
+              ></span>
+            </div>
+            <div class="change-pass__form-input-wrapper">
+              <input
+                type="password"
+                class="change-pass__form-input change-pass__form-input_field_password"
+                name="link"
+                id="password-field"
+                minlength="6"
+                required
+              />
+              <label
+                for="password-field"
+                class="change-pass__caption change-pass__placeholder password-field-field-placeholder"
+              >
+                <span>* </span>
+                <span class="change-pass__caption-main password-field-caption">Новый пароль</span>
+              </label>
+              <input id="show-pass" class="change-pass__show-pass" type="checkbox">
+              <label for="show-pass" class="change-pass__show-pass-label"></label>
+            </div>
+            <div class="change-pass__form-error-wrapper">
+              <span
+                class="change-pass__form-error-text change-pass__form-error-text_message_password password-field-error"
+              ></span>
+            </div>
+            <div class="change-pass__form-input-wrapper">
+              <input
+                type="password"
+                class="change-pass__form-input change-pass__form-input_field_password-rep"
+                name="link"
+                id="password-rep-field"
+                minlength="6"
+                required
+              />
+              <label
+                for="password-rep-field"
+                class="change-pass__caption change-pass__placeholder"
+              >
+                <span>* </span>
+                <span class="change-pass__caption-main password-rep-field-caption">Подтверждение пароля</span>
+              </label>
+            </div>
+            <div class="change-pass__form-error-wrapper">
+              <span
+                class="change-pass__form-error-text change-pass__form-error-text_message_password-rep password-rep-field-error"
+              ></span>
+            </div>
+            <p class="change-pass__caption change-pass__caption_position_hint">
+              <span>*</span> Обязательные поля
+            </p>
+            <button class="change-pass__form-submit-button">
+              <p class="change-pass__form-submit-button-title">
+                Изменить пароль
+              </p>
+              <img
+                class="change-pass__form-submit-button-arrow"
+                src="./images/arrow.svg"
+              />
+            </button>
+            <div class="change-pass__form-bottom-wrapper">
+              <a
+                class="change-pass__form-bottom-link change-pass__form-bottom-link_weigth_bold"
+                href="#"
+                >Зарегистироваться</a
+              >
+              <a class="change-pass__form-bottom-link" href="#">Войти</a>
+            </div>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <script type="module" src="./scripts/index.js"></script>
+  </body>
+</html>
