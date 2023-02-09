@@ -19,5 +19,6 @@ npm run start
 ```
 
 #### Technologies:
+ - Styles and layout using BEM
  - Validation on vanilla JS
  - Control components styles (pseudo placeholders) on valilla JS
