@@ -1,0 +1,29 @@
+.change-pass__form {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  height: max-content;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 5%;
+}
+
+@media only screen and (max-width: 414px) {
+  .change-pass__form {
+    width: 84.54%;
+  }
+}
+
+@media only screen and (min-width: 415px) and (max-width: 1600px) {
+  .change-pass__form {
+    width: calc(12.64% + 297px);
+  }
+}
+
+@media only screen and (min-width: 1601px) {
+  .change-pass__form {
+    width: calc(12.64% + 297px);
+  }
+}

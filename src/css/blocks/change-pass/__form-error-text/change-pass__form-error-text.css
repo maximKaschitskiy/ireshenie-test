@@ -1,0 +1,17 @@
+.change-pass__form-error-text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+  color: #F13F58;
+  margin: 0;
+  margin-top: 5px;
+  text-align: left;
+}
+
+@media only screen and (max-width: 320px) {
+  .change-pass__form-error-text {}
+}
+
+@media screen and (min-width: 1280px) {
+  .change-pass__form-error-text {}
+}

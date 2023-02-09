@@ -1,0 +1,18 @@
+.change-pass__caption {
+  font-style: normal;
+  font-weight: normal;
+  color: #2B689B;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  margin: 0;
+}
+
+.change-pass__caption::first-letter {
+  color: #FFB6C1;
+}

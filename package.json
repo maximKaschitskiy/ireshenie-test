@@ -1,0 +1,17 @@
+{
+  "name": "ireshenie-test",
+  "version": "1.0.0",
+  "description": "test task",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve src/index.html",
+    "build": "parcel build src/index.html",
+    "dev": "parcel serve src/index.html",
+    "deploy": "gh-pages -d src"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.8.3"
+  }
+}

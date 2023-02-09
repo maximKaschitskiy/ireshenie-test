@@ -1,0 +1,7 @@
+.change-pass__form-error-wrapper {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 21px;
+}

@@ -1,0 +1,25 @@
+.change-pass__form-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: calc(0.62vw + 16px);
+  color: #2B689B;
+  max-width: 358px;
+  width: calc(12.5vw + 198px);
+  margin: 0;
+  margin-top: 40px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 320px) {
+	.change-pass__form-title {
+      margin-top: 40px;
+      font-size: 18px;
+    }
+ }
+
+@media screen and (min-width: 1280px) {
+    .change-pass__form-title {
+      margin-top: 40px;
+      font-size: 24px;
+    }
+}

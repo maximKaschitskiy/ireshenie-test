@@ -1,0 +1,47 @@
+.change-pass__form-submit-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  border-radius: 2px;
+  cursor: pointer;
+  border: none;
+  color: #0E406A;
+  font-style: normal;
+  font-weight: normal;
+  font-size: calc(0.41vw + 12px);
+  line-height: 22px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0;
+  background: #FFD970;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.change-pass__form-submit-button:hover {
+  opacity: 0.8;
+}
+
+.change-pass__form-submit-button:disabled {
+  background-color: #ffe7a4;
+}
+
+@media only screen and (max-width: 350px) {
+  .change-pass__form-submit-button {
+    width: 69.14%;
+  }
+}
+
+@media only screen and (min-width: 351px) and (max-width: 500px) {
+  .change-pass__form-submit-button {
+    width: calc(18.66% + 176px);
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 1920px) {
+  .change-pass__form-submit-button {
+    width: calc(29.08% + 124px);
+  }
+}
