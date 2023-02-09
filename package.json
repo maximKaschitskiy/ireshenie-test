@@ -2,7 +2,8 @@
   "name": "ireshenie-test",
   "version": "1.0.0",
   "description": "test task",
-  "main": "index.js",
+  "private": false,
+  "homepage": "https://maximKaschitskiy.github.io/ireshenie-test/",
   "scripts": {
     "start": "parcel serve src/index.html",
     "build": "parcel build src/index.html",
